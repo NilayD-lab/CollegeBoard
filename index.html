@@ -1,153 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="mainPage.css" />
-    <title>College Board</title>
-  </head>
-  <body>
-    <div id="container">
-      <div id="first-page">
-        <div id="logo-line">
-          <div id="acorn-wrapper">
-            <img src="acorn.PNG" alt="College Board Logo" />
-          </div>
-          <div id="title"></div>
-        </div>
-        <div id="subtitle">
-          <p id="slogan">Where dreams are kept as dreams</p>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="mainPage.css" />
+  <title>College Board</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+
+
+<body>
+  <div id="first-page">
+    <div id="logo-line">
+      <div id="acorn-wrapper">
+        <img src="acorn.PNG" alt="College Board Logo" />
       </div>
+      <div id="title">College Board</div>
     </div>
-    <div id="second-page">
-      <span id="campus-grid" class="gridling" style="--row: 1; --col: 2">
-        <div
-          id="campus-container"
-          class="diamond"
-          style="
+    <div id="subtitle">Where dreams are kept as dreams</div>
+  </div>
+  <div id="second-page">
+    <span id="campus-grid" class="gridling" style="--row: 1; --col: 1; --topShift: 117vh;">
+      <div id="campus-container" class="diamond" style="
             --image: url('./campus.jpg');
             --topShift: -5%;
             --leftShift: -25%;
             --scale: 1.5;
-          "
-        ></div>
-      </span>
-      <span id="test-grid" class="gridling" style="--row: 2; --col: 3">
-        <div
-          id="test-container"
-          class="diamond"
-          style="
+          "></div>
+    </span>
+    <span id="test-grid" class="gridling" style="--row: 2; --col: 2;--topShift: 137vh;">
+      <div id="test-container" class="diamond" style="
             --image: url('./test.jpg');
             --topShift: 20%;
             --leftShift: -45%;
             --scale: 1.4;
-          "
-        ></div>
-      </span>
-      <span id="ceo-grid" class="gridling" style="--row: 2; --col: 1">
-        <div
-          id="ceo-container"
-          class="diamond"
-          style="
+          "></div>
+    </span>
+    <span id="ceo-grid" class="gridling" style="--row: 3; --col: 1; --topShift: 158vh;">
+      <div id="ceo-container" class="diamond" style="
             --image: url('./CEO.jpg');
             --topShift: 0%;
             --leftShift: -25%;
             --scale: 1.45;
-          "
-        ></div>
-      </span>
-      <span id="tiktok-grid" class="gridling" style="--row: 3; --col: 2">
-        <div
-          id="tiktok-container"
-          class="diamond"
-          style="
+          "></div>
+    </span>
+    <span id="tiktok-grid" class="gridling" style="--row: 4; --col: 2; --topShift: 179vh;">
+      <div id="tiktok-container" class="diamond" style="
             --image: url('./Tiktok_logo.jpg');
             --topShift: -0%;
             --leftShift: -25%;
             --scale: 1.4;
-          "
-        ></div>
-      </span>
+          "></div>
+    </span>
 
-      <div id="p1" class="paragraph" style="--row: 1; --col: 3">
-        College Board sets students up for success. The education we provide,
-        many say, has been crucial for many freshman. They feel delighted to
-        hear that they do not have to pay for an introductary course they took
-        in highschool.
-      </div>
-
-      <div id="p2" class="paragraph" style="--row: 2; --col: 2">
-        During the COVID-19 pandemic we know many of our students would hate to
-        miss out on their AP tests. To combat this, we decided to charge
-        students to take the test online. In the face of family turmoil, college
-        preperation stands strong!
-      </div>
-
-      <div id="p3" class="paragraph" style="--row: 3; --col: 3">
-        After further burdening our CEO with 1.8 million dollars of your money,
-        we have decided to expand our advertising deparments to continue with
-        this trend. We have looked towards TikTok to inspire the next generation
-        to invest in their futures throught College Board.
-      </div>
-    </div>
-    <div id="third-page">
-      <div id="donation-bar"><p>How much we still NEED</p></div>
-      <div id="options">
-        <div
-          class="option"
-          style="--quip: 'Even the tiniest effort goes a long way'"
-        >
-          <div>
-            <h3>Pariah</h3>
-            $1.99
-          </div>
-        </div>
-        <div class="option" style="--quip: 'Help us help the next generation'">
-          <div>
-            <h3>Shudra</h3>
-            $50.99
-          </div>
-        </div>
-        <div class="option" style="--quip: 'Our CEO greatly appreciates you'">
-          <div>
-            <h3>Vaishya</h3>
-            $100.99
-          </div>
-        </div>
-        <div class="option" style="--quip: 'Just give us your money'">
-          <div>
-            <h3>Kshatriya</h3>
-            $1999.99
-          </div>
-        </div>
-        <div class="option" style="--quip: 'We will worship you'">
-          <div>
-            <h3>Brahmin</h3>
-            $10000.99
-          </div>
-        </div>
-        <div class="option" style="--quip: 'We put this one in for fun'">
-          <div>
-            <h3>Brahma</h3>
-            $9999999.01
-          </div>
-        </div>
-        <div id="message">
-          <h1>We need your support</h1>
-          As a non-profit, our profit margins are very tight--we only made 1
-          billion dollars of profit in 2020. We need support to maintain a fine
-          balance in the quality of education we provide students to prepare
-          them for college success and keeping out CEO happy with his earnings.
-        </div>
-      </div>
-    </div>
-    <div id="scroll-bar">
-      <div id="up-arr" class="arrow" style="--rotate: 225deg"></div>
-      <div id="down-arr" class="arrow" style="--rotate: 45deg"></div>
+    <div id="p1" class="paragraph" style="--row: 1; --col: 2">
+      College Board sets students up for success. The education we provide,
+      many say, has been crucial for many freshman. They feel delighted to
+      hear that they do not have to pay for an introductary course they took
+      in highschool.
     </div>
 
-    <script src="script.js"></script>
-  </body>
+    <div id="p2" class="paragraph" style="--row: 2; --col: 1">
+      During the COVID-19 pandemic we know many of our students would hate to
+      miss out on their AP tests. To combat this, we decided to charge
+      students to take the test online. In the face of family turmoil, college
+      preperation stands strong!
+    </div>
+
+    <div id="p3" class="paragraph" style="--row: 3; --col: 2">
+      After further burdening our CEO with 1.8 million dollars of your money,
+      we have decided to expand our advertising deparments to continue with
+      this trend. We have looked towards TikTok to inspire the next generation
+      to invest in their futures through College Board.
+    </div>
+  </div>
+  <div id="third-page">
+    <div id="donation-bar">
+      <p>How much we still NEED</p>
+    </div>
+    <div id="options">
+      <div class="option" style="--quip: 'Even the tiniest effort goes a long way'">
+        <div>
+          <h3>Pariah</h3>
+          $1.99
+        </div>
+      </div>
+      <div class="option" style="--quip: 'Help us help the next generation'">
+        <div>
+          <h3>Shudra</h3>
+          $50.99
+        </div>
+      </div>
+      <div class="option" style="--quip: 'Our CEO greatly appreciates you'">
+        <div>
+          <h3>Vaishya</h3>
+          $100.99
+        </div>
+      </div>
+      <div class="option" style="--quip: 'Just give us your money'">
+        <div>
+          <h3>Kshatriya</h3>
+          $1999.99
+        </div>
+      </div>
+      <div class="option" style="--quip: 'We will worship you'">
+        <div>
+          <h3>Brahmin</h3>
+          $10000.99
+        </div>
+      </div>
+      <div class="option" style="--quip: 'We put this one in for fun'">
+        <div>
+          <h3>Brahma</h3>
+          $9999999.01
+        </div>
+      </div>
+      <div id="message">
+        <h1>We need your support</h1>
+        As a non-profit, our profit margins are very tight—we only made small 1
+        billion dollars of profit in 2020. We need support to maintain a fine
+        balance in the quality of education we provide students and the happiness
+        our CEO recieves with his earnings.
+      </div>
+    </div>
+  </div>
+  <div id="scroll-bar">
+    <div id="up-arr" class="arrow" style="--rotate: 225deg"></div>
+    <div id="down-arr" class="arrow" style="--rotate: 45deg"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
